@@ -1,0 +1,30 @@
+#identificatore_univoco {
+    color: red;
+}
+
+h2 {
+    color: aquamarine;
+    background-color: chocolate;
+}
+
+.yellow {
+    color: blueviolet;
+}
+
+h1 {
+    color: brown;
+    font-size: 58px;
+}
+
+body {
+    font-family: arial, Verdana;
+    /*Nomi dei font*/
+
+    font-size: 12px;
+    /*dimensioni del font*/
+
+    font-weight: 400;
+    /*L'importanza del font */
+
+
+}

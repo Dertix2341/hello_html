@@ -1,0 +1,37 @@
+/*HEADER*/
+header {
+    background-color: #ededed;
+    text-align: center;
+
+}
+
+/*END HEADER*/
+/*TITLES*/
+h2 {
+    color: #cf8b05
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 800;
+}
+
+/*END TITLES*/
+/*SCETION*/
+.section-line {
+    border-bottom: 2px solid #cf8b05;
+}
+
+.item {
+    height: 40px;
+
+}
+
+/*END SECTION*/
+/*FOOTER*/
+footer {
+    height: 400px;
+    background-image: url(img2.0.css/2efd330e465cedb4394b56d5fec1a5ca.png);
+}
+
+/*END FOOTER*/
