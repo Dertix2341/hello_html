@@ -1,0 +1,45 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*end css reset*/
+
+.container {
+    max-width: 1200px;
+    /*margin: 0 auto;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.text {
+    background-color: aquamarine;
+    border: 2px dashed black;
+    /*
+    border-top: 2px solid black;
+
+    border-right: 2px solid black;
+
+    border-bottom: 2px solid black;
+
+    border-left: 2px solid black;
+    */
+    border-left-style: solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(38, 199, 38);
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+}
