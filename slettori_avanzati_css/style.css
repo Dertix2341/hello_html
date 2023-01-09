@@ -1,0 +1,84 @@
+/*generics*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+div {
+    background-color: black;
+    border: 1px solid rgb(94, 28, 94);
+    height: 100px;
+}
+
+/* utilities*/
+
+/*content*/
+
+.margin-30 {
+    margin: 30px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.margin-container {
+    margin: 30px -30px;
+
+}
+
+.margin-30 div {
+    display: inline-block;
+    width: 50%;
+    margin: 10px 20px;
+    height: 50%;
+    background-color: rgb(204, 204, 38);
+
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.margin-30.overflow-y .margin-container {
+    height: 200px;
+}
+
+
+p,
+input[type="email"] {
+    color: red;
+}
+
+img[src="pincopallino"] {
+    width: 250px;
+}
+
+
+a {
+    color: chocolate;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.margin-30 div:first-child {
+    background-color: violet;
+}
+
+.margin-30 div:last-child {
+    background-color: rgb(204, 204, 38);
+}
