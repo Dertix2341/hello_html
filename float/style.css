@@ -1,0 +1,31 @@
+/*generic*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*utilities*/
+
+/*content*/
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+body>div {
+    margin-bottom: 25px;
+    border: 2px solid yellowgreen;
+}
+
+.clearfix {
+    clear: both
+}
