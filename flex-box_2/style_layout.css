@@ -1,0 +1,60 @@
+/*generic*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.2rem;
+    font-size: 18px;
+}
+
+/*utilities*/
+
+/*content*/
+
+.container{
+    display: flex;
+    height: 100vh;/*"vh"viu port cioè l'altezza del sito*/
+}
+
+.column{
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+
+.menu{
+    background-color: rgb(1, 240, 53);
+    flex-basis: 200px;
+    flex-wrap: wrap;
+}
+
+.main{
+    background-color: red;
+    flex-basis: 15px;
+
+}
+
+.side_menu{
+    flex-basis: 250px;
+    background-color: brown;
+    padding: 10px;
+    row-gap: 15px;
+
+}
+
+.content{
+    flex-grow: 1;
+    background-color: violet;
+}
+
+.footer{
+    flex-basis: 50px;
+    background-color: blueviolet;
+}
+
+
