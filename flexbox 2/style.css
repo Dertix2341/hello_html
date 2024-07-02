@@ -1,0 +1,72 @@
+/*generic*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.2rem;
+}
+
+/*utilities*/
+
+/*content*/
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+/* i flex-item occupano lo spazio a disposizine sulla cros axis 
+perchè di default align-items: stretch (proprieta del flex-container)*/
+.menu {
+    background-color: violet;
+    /* flex-basis: 150px;*/
+    flex-wrap: wrap;
+}
+
+.flex .menu {
+    row-gap: 15px;
+    justify-content: space-between;
+}
+
+.flex .menu>* {
+    padding: 0px 5px;
+}
+
+.footer {
+    flex-basis: 50px;
+    background-color: aquamarine;
+}
+
+.main {
+    /*background-color: darkviolet;*/
+    flex-grow: 1;
+}
+
+.col {
+    flex-direction: column
+}
+
+.side-menu {
+    flex-basis: 250px;
+    background-color: red;
+    row-gap: 15px;
+    padding: 1.2rem;
+}
+
+.content {
+    background-color: chartreuse;
+    flex-grow: 1;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
